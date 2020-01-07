@@ -12,3 +12,5 @@ OBJECTS = hello_omp.o
 ${TARGET} : ${OBJECTS}
 	${COMPILE} ${OBJECTS} -o $@ 
 
+clean :
+	rm -f *.o *.mod
